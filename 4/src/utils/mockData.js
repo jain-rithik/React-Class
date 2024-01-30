@@ -739,7 +739,264 @@ const resList = [
             "type": "WEBLINK"
         },
         "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    }
+    },
+    {
+        "info": {
+            "id": "579671",
+            "name": "Bakingo-Cakes & Desserts",
+            "cloudinaryImageId": "05994df0e49725bd230146c320b8f7aa",
+            "locality": "Andheri East",
+            "areaName": "Marol Sakinaka",
+            "costForTwo": "₹299 for two",
+            "cuisines": [
+                "Bakery",
+                "Desserts",
+                "Beverages",
+                "Snacks"
+            ],
+            "avgRating": 4.4,
+            "parentId": "3818",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 36,
+                "lastMileTravel": 3.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "3.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-31 01:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "v1705582451/Ratnesh_Badges/Listing_HR.png",
+                        "shortDescription": "Perfect Cake Delivery",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV3": {
+                "header": "₹99 OFF",
+                "subHeader": "ABOVE ₹449",
+                "discountTag": "FLAT DEAL"
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "v1705582451/Ratnesh_Badges/Listing_HR.png",
+                                    "shortDescription": "Perfect Cake Delivery"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-879dcb99-34a9-473b-923b-02fc5f65e5e4"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/bakingo-cakes-and-desserts-andheri-east-marol-sakinaka-mumbai-579671",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "678581",
+            "name": "NH1 Bowls - Highway To North",
+            "cloudinaryImageId": "94654fdf308764cd0faf83dba35bcdc3",
+            "locality": "Gaurav Industrial Estate",
+            "areaName": "Kurla West",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "North Indian",
+                "Punjabi",
+                "Home Food"
+            ],
+            "avgRating": 4.6,
+            "parentId": "22452",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 0.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "14-24 mins",
+                "lastMileTravelString": "0.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-31 02:00:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "EVERY ITEM",
+                "subHeader": "@ ₹159"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-879dcb99-34a9-473b-923b-02fc5f65e5e4"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/nh1-bowls-highway-to-north-gaurav-industrial-estate-kurla-west-mumbai-678581",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "802336",
+            "name": "Yasin's Food Inn",
+            "cloudinaryImageId": "ad71e7632fb460a2559b64289ec9c2b2",
+            "locality": "Radhabai Niwas Corner",
+            "areaName": "Kurla",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "North Indian",
+                "Chinese",
+                "Mughlai",
+                "Fast Food",
+                "Biryani",
+                "Beverages"
+            ],
+            "avgRating": 3.7,
+            "parentId": "313916",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 32,
+                "lastMileTravel": 2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-01-30 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-879dcb99-34a9-473b-923b-02fc5f65e5e4"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/yasins-food-inn-radhabai-niwas-corner-kurla-mumbai-802336",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
 ];
 
 export default resList;
