@@ -24,8 +24,16 @@
     margin: 10px;
 }
 
+.login {
+    padding: 0 20px;
+    margin: 12px 0px;
+    cursor: pointer;
+}
+
 .filter{
     margin: 10px;
+    display: flex;
+    gap: 20px;
 }
 
 /*FOOD MENU*/
@@ -33,6 +41,14 @@
     width: 1100px;
     margin: 0px auto;
     /* background-color: yellow; */
+}
+
+.Food-menu a {
+    text-decoration: none;
+    width: 350px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-right: 16px;
 }
 
 .Food-menu .Food-item {
@@ -48,14 +64,14 @@
     padding: 10px;
 }
 
-.Food-menu .Food-item .Food-item-margin a {
+.Food-menu .Food-item .Food-item-margin .Food-item-link {
     display: block;
     position: relative;
     cursor: pointer;
     text-decoration: none;
 }
 
-.Food-menu .Food-item .Food-item-margin a .card-img {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .card-img {
     border-radius: 1.5px;
     cursor: pointer;
     position: relative;
@@ -66,7 +82,7 @@
     border-radius: 15px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .card-img img {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .card-img img {
     width: 100%;
     height: 100%;
     border-radius: inherit;
@@ -74,13 +90,13 @@
     transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
 }
 
-.Food-menu .Food-item .Food-item-margin a .off {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .off {
     position: absolute;
     bottom: 12px;
     max-width: calc(100% - 24px);
 }
 
-.Food-menu .Food-item .Food-item-margin a .off p {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .off p {
     font-size: 14px;
     line-height: 18px;
     padding: 0px 6px;
@@ -94,14 +110,14 @@
 
 }
 
-.Food-menu .Food-item .Food-item-margin a .pname {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .pname {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
     line-height: 17px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .pname h4 {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .pname h4 {
     line-height: 1.2;
     margin-block-end: 0px;
     font-weight: 500;
@@ -112,7 +128,7 @@
     color: rgb(28, 28, 28);
 }
 
-.Food-menu .Food-item .Food-item-margin a .rating {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .rating {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,26 +142,26 @@
     margin: 7.2px 0;
 }
 
-.Food-menu .Food-item .Food-item-margin a .rating p {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .rating p {
     margin-right: 2px;
     font-weight: 600;
     font-size: 13px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .rating .fa-star {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .rating .fa-star {
     color: #ffffff;
     font-size: 10px;
     height: 9px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .Category {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .Category {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
     line-height: 17px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .Category .p1 {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .Category .p1 {
     font-size: inherit;
     line-height: 1.5;
     margin: 0px;
@@ -158,7 +174,7 @@
     padding: 0px 0px 4px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .Category .p2 {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .Category .p2 {
     font-size: inherit;
     line-height: 1.5;
     margin: 0px;
@@ -171,13 +187,13 @@
     padding: 0px 0px 4px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .time {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .time {
     display: flex;
     justify-content: end;
     height: 21px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .time p {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .time p {
     margin: 0px;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(4px);
@@ -189,32 +205,32 @@
     padding: 2px 5px 3px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .line {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .line {
     height: 1px;
     background-color: rgb(232, 232, 232);
     margin-bottom: 5px;
     margin-top: 5px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .covid {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .covid {
     display: flex;
     width: 100%;
     align-items: center;
     height: 34px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .covid .covid-img {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .covid .covid-img {
     width: 63px;
     height: 18px;
 }
 
-.Food-menu .Food-item .Food-item-margin a .covid .covid-img img {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .covid .covid-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.Food-menu .Food-item .Food-item-margin a .covid p {
+.Food-menu .Food-item .Food-item-margin .Food-item-link .covid p {
     margin: 0px 0px 0px 11px;
     text-align: left;
     color: rgb(130, 130, 130);
@@ -242,3 +258,76 @@
 }
 
 /*Food menu*/
+
+/* Shimmer Crads */
+
+@keyframes shimmer-animation {
+    0% {
+      background-position: -100% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+.shimmer-item {
+    width: 350px;
+    height: 400px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    background: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .shimmer-img {
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+    animation: shimmer-animation 1.5s infinite linear;
+  }
+  
+  .shimmer-details {
+    padding: 10px;
+  }
+  
+  .shimmer-title {
+    height: 15px;
+    width: 80%;
+    background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+    margin-bottom: 8px;
+  }
+  
+  .shimmer-rating {
+    height: 20px;
+    width: 40px;
+    background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+    margin-bottom: 8px;
+  }
+  
+  .shimmer-category {
+    height: 15px;
+    width: 50%;
+    background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+    margin-bottom: 8px;
+  }
+  
+  .shimmer-cost {
+    height: 15px;
+    width: 30%;
+    background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+    margin-bottom: 8px;
+  }
+  
+  .shimmer-time {
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+  }
+
+.user-card{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}

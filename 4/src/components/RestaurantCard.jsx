@@ -17,19 +17,23 @@ const RestaurantCard = (props) => {
   return (
     <div className="Food-item">
       <div className="Food-item-margin">
-        <a href={resData.cta.link}>
+        <span className="Food-item-link">
           <div className="card-img">
             <img src={CDN_URL + cloudinaryImageId} alt="restaurant img" />
           </div>
           <div className="off">
             <p>
-              {aggregatedDiscountInfoV3.header +
-                " " +
-                aggregatedDiscountInfoV3.subHeader}
+              {aggregatedDiscountInfoV3?.header
+                ? `${aggregatedDiscountInfoV3.header}${
+                    aggregatedDiscountInfoV3.subHeader
+                      ? ` ${aggregatedDiscountInfoV3.subHeader}`
+                      : ""
+                  }`
+                : "Flat Rs. 49 OFF"}
             </p>
           </div>
-        </a>
-        <a href={resData.cta.link}>
+        </span>
+        <span className="Food-item-link">
           <div className="pname">
             <h4>{name}</h4>
 
@@ -52,7 +56,7 @@ const RestaurantCard = (props) => {
             </div>
             <p>Follows all Max Safety measures to ensure your food is safe</p>
           </div>
-        </a>
+        </span>
       </div>
     </div>
   );
